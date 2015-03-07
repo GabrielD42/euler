@@ -19,5 +19,5 @@ def sum_of_divisible_fibonacci(start1, start2, limit, divisor)
   sum_of_divisible_elements(fibonacci(start1, start2, limit), divisor)
 end
 
-puts sum_of_divisible_fibonacci(1, 2, 90, 2) # first 10 terms
+puts sum_of_divisible_fibonacci(1, 2, 90, 2) # test case
 puts sum_of_divisible_fibonacci(1, 2, 4_000_000, 2) # actual problem
