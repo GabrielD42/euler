@@ -18,7 +18,7 @@
 # overly complex (but efficient) version
 def smallest_multiple(divisors)
   code = 'n = 2; n += 1 while ('
-  divisors.each { |n| code += "n % #{n} != 0 || "}
+  divisors.each { |n| code += "n % #{n} != 0 || " }
   code.chomp! '|| '
   code += '); n'
   eval code
